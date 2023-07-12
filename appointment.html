@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>PARTNERSHIP</title>
+</head>
+<style>
+    body {
+        background-color: bisque;
+    }
+
+    h1 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    input {
+        width: 350px;
+        height: 28px;
+        background-color: rgb(237, 236, 236);
+        color: rgb(240, 212, 170);
+        border-radius: 15px;
+    }
+
+    fieldset.fieldset {
+        position: absolute;
+        width: fit-content;
+        transform: translate(-50%, -50%);
+        top: 70%;
+        left: 50%;
+        padding: 30px;
+        background-color: rgba(54, 58, 57, 0.429);
+        text-decoration: none;
+        border-radius: 15px;
+
+    }
+
+    fieldset.field {
+        background-image: url(logos.png);
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    button {
+        background-color: rgb(129, 122, 122);
+        text-align: center;
+     border-radius: 25px;
+
+    }
+
+    button a {
+        color: beige;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <ul>
+            <li><a href="project.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="service.html">SERVICES</a></li>
+            <li><a href="doctor.html">DOCTORS</a></li>
+            <li><a href="partnership.html">PARTNERSHIP</a></li>
+            <li><a href="appointment.html">APPOINTMENT</a></li>
+            <li><a href="help.html">CONTACT</a></li>
+        </ul>
+    </div>
+
+    <div class="contain">
+        <h1 class="killa">WELCOME TO KIRA HEALTH CLINIC</h1>
+    </div>
+    <br>
+    <center>
+        <u>
+            <h1>TO ASK FOR APPOINTMENT FILL OUT THE FOLLOWING FORM</h1>
+        </u>
+    </center>
+    <fieldset class="fieldset">
+        <fieldset class="field">
+            <input type="text" placeholder="First name" required><br><br>
+            <input type="text" placeholder="Second name" required><br><br>
+            <input type="email" placeholder="Enter your email" required><br><br>
+            <input type="number" placeholder="Enter phone number" required><br><br>
+            <input type="password" placeholder="Create password" required><br><br>
+            <center>
+                <button class="button" onclick="alert('Do you wish to request for an appointment ?')"><a href="request.html">REQUEST</a></button>
+            </center>
+        </fieldset>
+    </fieldset>
+</body>
+
+</html>
